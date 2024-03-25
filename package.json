@@ -1,0 +1,23 @@
+{
+  "name": "atuale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcoagpegoraro/atuale.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcoagpegoraro/atuale/issues"
+  },
+  "homepage": "https://github.com/marcoagpegoraro/atuale#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
