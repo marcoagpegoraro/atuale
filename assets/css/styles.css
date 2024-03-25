@@ -1,0 +1,13 @@
+#navbar{
+    opacity: 85%;
+}
+
+#foto-principal-container{
+    height: 100vh;
+}
+
+#foto-principal{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
