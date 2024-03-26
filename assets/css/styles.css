@@ -13,6 +13,12 @@
     border-radius: 50%;
 } 
 
+#whatsapp-icon{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
 #banner{
     height: 100vh;
     display: flex;
