@@ -51,13 +51,18 @@
 #carrousel-projects-photos{
     width: 50vh;
     margin: 40px;
-}
-
-#carrousel-projects-photos{
-    width: 50vh;
-    margin: 20px;
+    display: block;
 }
 
 #carrousel-projects-photos .carousel-inner .carousel-item img{
     max-height: 80vh;
+}
+
+#nossa-historia-texto{
+    width: 100%;
+    margin: 40px;
+    padding: 10px;
+    height: 80vh;
+    text-align: center;
+
 }
