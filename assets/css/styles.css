@@ -1,68 +1,96 @@
-#navbar{
-    opacity: 85%;
+#navbar {
+  opacity: 85%;
 }
 
-#foto-logo-navbar-container{
-    height: 36px;
+#foto-logo-navbar-container {
+  height: 36px;
 }
 
-#foto-logo-navbar{
-    width: 100%;
-    height: 100%; 
-    object-fit: cover;
-    border-radius: 50%;
-} 
-
-#whatsapp-icon{
-    width: 100%;
-    height: 100%; 
-    object-fit: cover;
+#foto-logo-navbar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
-#banner{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+#whatsapp-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-#foto-principal{
-    width: 100%;
-    height: 100%; 
-    object-fit: cover;
-    position: absolute;
-    z-index: -1;
+#banner {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#conteudo-banner-principal{
+#foto-principal {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
 }
 
-#paragrafo-banner-principal{
-    display: flex;
-    align-self: center;
-    flex-direction: row;
-    justify-content: center
+#conteudo-banner-principal {}
+
+#paragrafo-banner-principal {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  justify-content: center
 }
 
-#nossa-historia{
-    height: 80vh;
+#nossa-historia {
+  height: 90vh;
 }
 
-#carrousel-projects-photos{
+/* CSS media query dentro de um stylesheet */
+@media (max-width: 991px) {
+  #nossa-historia {
+    height: 180vh;
+  }
+
+  #nossa-historia-texto {
+    width: 80%;
+  }
+
+  #carrousel-projects-photos {
+  }
+
+#carrousel-projects-photos .carousel-inner .carousel-item img {
+  max-height: 80vh;
+}
+}
+
+@media (min-width: 992px) {
+  #nossa-historia-texto {
     width: 50vh;
-    margin: 40px;
-    display: block;
+  }
 }
 
-#carrousel-projects-photos .carousel-inner .carousel-item img{
-    max-height: 80vh;
+#carrousel-projects-photos {
+  margin: 40px;
 }
 
-#nossa-historia-texto{
-    width: 100%;
-    margin: 40px;
-    padding: 10px;
-    height: 80vh;
-    text-align: center;
+/* #carrousel-projects-photos .carousel-inner .carousel-item img {
+  max-height: 80vh;
+} */
 
+
+#nossa-historia-texto {
+  margin: 40px;
+  padding: 10px;
+  height: 80vh;
+  text-align: center;
+}
+
+#foto-servicos {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -2;
 }
